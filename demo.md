@@ -36,28 +36,37 @@ Here's how to create relative links in your Markdown files on GitHub:
 Here are some examples of how to use relative links in your Markdown files:
 
 -   Link to a file in the same directory:
-```
-Click here for an [Example](example.md).
-```
+    ```
+    [Link Text](filename.md).
+    ```
+    **Example:**  
+    Click here for an [Example](example.md).  
 
 -   Link to a file in a subdirectory:
-```
-This [link](Images/example2.md) is linked to a file in the subdirectory.
-```
+    ```
+    [Link Text](subdir/filename.md)
+    ```
+    **Example:**  
+    This [link](Images/example2.md) is linked to a file in the subdirectory.  
 
 -   Link back to the current file (usually used in the table of contents):
-```
-[Using Relative Links in Markdown Files on GitHub](demo.md)
-```
-**Note:** Linking back to the current file (like in the original TOC example) isn't a common practice. Most users wouldn't expect to click a link to reach the same page they're already on.
+    ```
+    [Link Text](filename.md)
+    ```
+    **Example:**  
+    [Using Relative Links in Markdown Files on GitHub](demo.md)  
+
+    **Note:** Linking back to the current file (like in the original TOC example) isn't a common practice. Most users wouldn't expect to click a link to reach the same page they're already on.
+    <br>
 
 - Link to an image file in a subdirectory:
-
-```
-This [link](Images/Flower 1.jpg) is linked to a file in the subdirectory.
-```
-
-**Note:** When linking to a file in a subdirectory, you'll need to use the directory name followed by a forward slash (`/`) before the filename.
+    ```
+    [Link Text](path/to/image.jpg)
+    ```
+    **Example:**  
+    This [link](Images/Flower1.jpg) is linked to a Image file in the subdirectory.  
+  
+    **Note:** When linking to a file in a subdirectory, you'll need to use the directory name followed by a forward slash (`/`) before the filename.  
 
 ### Conclusion
 
